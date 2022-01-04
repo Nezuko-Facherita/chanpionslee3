@@ -1,0 +1,75 @@
+body{
+margin: 0;
+padding-top: 800px;
+text-align:center ;
+}
+.profile{
+border-radius: 50%;
+}
+#Welcome{
+position: absolute;
+bottom: 0;
+background:linear-gradient(#cf9ce6 0%, #88f4f7 100%) ;
+display:table;
+width: 100%;
+height: 100%;
+}
+h1{
+font-size: 40px;
+font-family: monospace;
+font-weight: 300;
+}
+#name{
+ font-size: 50px;
+ font-family: monospace;
+ font-weight: 300;
+}
+h2{
+font-size: 30px;
+ font-family: monospace;
+font-weight: 300;
+}
+#bio{
+font-family: 'Shizuru', cursive; ; 
+padding: 50px;
+}
+.line{
+ width: 70px;
+ height: 6px;
+ background-color: aqua;
+ margin: 8px auto;
+}
+.Diseño_Vienvenida{
+display: table-cell;
+vertical-align: middle;
+}
+.menu{
+ list-style: none;
+ position: fixed;
+ top: 0px;
+ margin-top: 0px;
+ width: 100%;
+ z-index: 10;
+ background: rgb(0, 255, 179);
+}
+.links{
+display: inline;
+padding-top: 5px;
+padding-left: 33px;
+padding-right: 25px;
+padding-bottom: 5px;
+font-family: monospace;
+font-size: 20px;
+}
+a {
+text-decoration: none ;
+}
+.links:hover{
+font-size: 25px;
+text-decoration: underline;
+}
+#writings a{
+text-decoration: underline !important;
+color: #d9fff9 !important;
+}
+#contact{ background:#cf9ce6 ; } #contact iframe{ width: 100%; } .contact_1 h3 { display: inline; }
